@@ -1,5 +1,5 @@
-`ifndef constants_h
-`define constants_h
+`ifndef ascii_chars
+`define ascii_chars
 //Character definitions
 
 //numbers

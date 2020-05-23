@@ -41,6 +41,4 @@ module FPGA_escape_room_top(
     inout   [35:0]  GPIO_1                  
 );
 
-`include "src/utils/constants.svh"
-
 endmodule
