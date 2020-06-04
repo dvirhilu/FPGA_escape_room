@@ -2,14 +2,14 @@
 `define type_definitions_h
 
 typedef enum logic { 
-    dir_Wr = 0, 
-    dir_Rd = 1
+    WRITE   = 0, 
+    READ    = 1
 } data_dir;
 
 typedef struct {
     logic [6:0] address,
     data_dir dir,
-    logic [7:0] data
+    logic [15:0] data
 } i2c_transaction;
 
 `endif

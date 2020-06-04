@@ -1,4 +1,7 @@
 `default_nettype none
+import type_definitions::*;
+import constants::*;
+
 module FPGA_escape_room_top(
     //////////// CLOCK //////////
     input           CLOCK_50,

@@ -39,6 +39,6 @@ module var_clk_divider_32bit (
 	//detect rising clk edge
 	always_ff@(posedge clk_in)
 		// complement the output if toggle_flag==1 on a rising edge
-		if(toggle_flag) 	clk_out <= ~clk_out;
+		if (toggle_flag) 	clk_out <= ~clk_out;
 	 
 endmodule
